@@ -1,15 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FormReset />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FormReset from './components/FormReset'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FormReset,
   }
 }
 </script>
