@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <!-- <div class="container">
     <h1>Form Abogado</h1>
 
     
@@ -37,10 +37,10 @@
       <p class="alert alert-info">{{ mensaje }}</p>
       <p v-if="datos" class="alert alert-success">Datos: {{ datos }}</p>
     </div>
-  </div>
-</template>
+  </div> -->
+// </template>
 
-<script>
+<!-- <script>
 import axios from 'axios';
 import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.min.js'; 
@@ -70,6 +70,7 @@ export default {
         });
         this.mensaje = respuesta.data.mensaje;
         this.datos = respuesta.data.data;
+        clg
       } catch (error) {
         // console.error('Error al actualizar abogado:', error);
 
@@ -88,4 +89,4 @@ export default {
 
 <style scoped>
 
-</style>
+</style> -->
